@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 4%;
+}
+
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    
+}
+
+.titulo-principal{
+    color: #0000FF;
+    text-align: left;
+    animation: piscar_titulo_principal 2s infinite alternate;
+
+}
+
+@keyframes piscar_titulo_principal {
+    0%{color:#21c5ea;}
+    20%{color: #4169E1;}
+    40%{color: #6495ED;}
+    60%{color: #1E90FF;}
+    80%{color: #00BFFF;}
+    100%{color: #21c5ea ;}
+}
+
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5% 5%;
+
+}
+
+img{
+    width: auto;
+    height: 100%;
+    border-radius: 10px;
+    
+}    
+
+.apresentacao__conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 615px;
+    margin: 0% -1%;
+    flex-grow: 1;
+    
+}
+
+.apresentacao__conteudo__texto{
+    color: white;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0;
+}
+
+.apresentacao__conteudo__titulo{
+    color: white;
+    font-family: "Krona One", sans-serif;
+    text-align: left;
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.apresentacao__subtitulo{
+    font-family:"Krona One", sans-serif; 
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+
+.apresentacao__links__buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border: 2px solid #22D4FD;
+    background-color: transparent;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: "Montserrat", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    
+   
+}
+
+.apresentacao__links__buttom:hover{
+    border: 2px solid #f61905;
+}
+
+
+
+.icones{
+    width: 30px;
+    height: auto;
+}
